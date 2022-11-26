@@ -1,0 +1,28 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "the best way to watch a video",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaloe7438/wetube-2022.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aaloe7438/wetube-2022/issues"
+  },
+  "homepage": "https://github.com/aaloe7438/wetube-2022#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@types/express": "^4.17.14",
+    "nodemon": "^2.0.20"
+  }
+}
